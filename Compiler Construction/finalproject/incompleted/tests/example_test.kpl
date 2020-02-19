@@ -1,0 +1,9 @@
+PROGRAM exampleTest;
+CONST MAX = 10;
+TYPE T = INTEGER;
+VAR  A : ARRAY(.2.) OF ARRAY(.4.) OF T;
+     N : INTEGER;
+     CH : CHAR;
+BEGIN
+    A(.4.)(.2.) := 0;
+END.

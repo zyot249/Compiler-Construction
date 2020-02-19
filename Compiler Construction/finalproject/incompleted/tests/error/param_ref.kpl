@@ -1,0 +1,9 @@
+program paramRef;
+function f(var v : Integer) : Integer;
+begin
+    f := 1;
+end;
+
+begin
+    call writei(f(1));
+end.

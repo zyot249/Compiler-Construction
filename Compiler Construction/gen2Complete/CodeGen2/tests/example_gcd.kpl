@@ -1,0 +1,16 @@
+PROGRAM findGCD;
+VAR a : INTEGER;
+    b : INTEGER;
+FUNCTION gcd(a1 : INTEGER; a2 : INTEGER) : INTEGER;
+BEGIN
+    WHILE a1 != a2 DO
+    IF a1 > a2
+    THEN a1 := a1 - a2
+    ELSE a2 := a2 - a1;
+    gcd := a1;
+END;
+BEGIN
+    a := READI;
+    b := READI;
+    CALL WRITEI(gcd(a, b));
+END.

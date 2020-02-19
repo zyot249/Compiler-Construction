@@ -1,0 +1,5 @@
+program invalidExp;
+Var a : Integer;
+Begin
+    a := +5*a:;
+end.
